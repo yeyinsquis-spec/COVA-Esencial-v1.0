@@ -1,0 +1,1 @@
+-keep class com.cova.esencial.data.local.entities.** { *; }
