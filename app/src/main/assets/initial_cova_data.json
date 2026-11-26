@@ -1,0 +1,94 @@
+{
+  "seedVersion": 1,
+  "casetas": [
+    {
+      "codigo": "SUR",
+      "nombre": "Caseta Sur",
+      "modulos": "1 y 5",
+      "activa": true
+    },
+    {
+      "codigo": "CENTRAL",
+      "nombre": "Caseta Central",
+      "modulos": "3",
+      "activa": true
+    },
+    {
+      "codigo": "CENOTE",
+      "nombre": "Caseta Cenote",
+      "modulos": "4",
+      "activa": true
+    }
+  ],
+  "consignas": [
+    {
+      "clave": "GEN_01",
+      "casetaCodigo": "GENERAL",
+      "categoria": "CONSIGNA GENERAL",
+      "titulo": "Control de accesos y registro en bitácora",
+      "contenido": "Verificar identificación oficial vigente de todo visitante, contratista o proveedor. Registrar hora de entrada, nombre completo, motivo de visita y módulo destino antes de autorizar el acceso."
+    },
+    {
+      "clave": "GEN_02",
+      "casetaCodigo": "GENERAL",
+      "categoria": "CONSIGNA GENERAL",
+      "titulo": "Puntualidad de reportes por turno",
+      "contenido": "Emitir reporte de inicio de turno al recibir el servicio, reportes de recorrido conforme al horario asignado y reporte de cierre al efectuar el relevo sin novedades pendientes."
+    },
+    {
+      "clave": "GEN_03",
+      "casetaCodigo": "GENERAL",
+      "categoria": "PROTOCOLO",
+      "titulo": "Protocolo ante incidentes o intrusión",
+      "contenido": "1. Mantener la calma y resguardar la integridad física.\n2. Asegurar accesos cercanos si es seguro hacerlo.\n3. Notificar de inmediato al supervisor de turno y central.\n4. Documentar hora exacta, ubicación, descripción de hechos y testigos en el reporte de incidentes."
+    },
+    {
+      "clave": "GEN_04",
+      "casetaCodigo": "GENERAL",
+      "categoria": "PROCEDIMIENTO",
+      "titulo": "Procedimiento de entrega y recepción de turno",
+      "contenido": "Revisar equipo asignado (radio, lámpara, llaves, bitácora física), validar estado de módulos bajo responsabilidad y firmar conformidad con el elemento entrante."
+    },
+    {
+      "clave": "SUR_01",
+      "casetaCodigo": "SUR",
+      "categoria": "CONSIGNA CASETA",
+      "titulo": "Cobertura de Módulos 1 y 5",
+      "contenido": "Supervisar accesos vehiculares y peatonales vinculados a los Módulos 1 y 5. Verificar cerraduras perimetrales, alumbrado exterior y estado de portones en cada ronda."
+    },
+    {
+      "clave": "CENTRAL_01",
+      "casetaCodigo": "CENTRAL",
+      "categoria": "CONSIGNA CASETA",
+      "titulo": "Cobertura de Módulo 3 y coordinación operativa",
+      "contenido": "Mantener control estricto del Módulo 3, recepción de paquetería/proveedores y enlace directo con rondines de apoyo."
+    },
+    {
+      "clave": "CENOTE_01",
+      "casetaCodigo": "CENOTE",
+      "categoria": "CONSIGNA CASETA",
+      "titulo": "Cobertura de Módulo 4 y perímetro natural",
+      "contenido": "Vigilar Módulo 4, senderos colindantes y luminarias perimetrales. Reportar cualquier presencia no autorizada o falla de iluminación de inmediato."
+    }
+  ],
+  "plantillasRecorrido": [
+    {
+      "clave": "REC_SUR_BASE",
+      "casetaCodigo": "SUR",
+      "titulo": "Recorrido Estándar Caseta Sur (Módulos 1 y 5)",
+      "contenido": "Playa del Carmen, Quintana Roo.\nRECORRIDO DE VIGILANCIA — CASETA SUR\n- Módulo 1: Perímetro, accesos y luminarias sin novedad.\n- Módulo 5: Puertas cerradas, área despejada y sin novedad.\n- Perímetro Sur: Bardas y accesos asegurados.\nEstado general: SIN NOVEDAD."
+    },
+    {
+      "clave": "REC_CENTRAL_BASE",
+      "casetaCodigo": "CENTRAL",
+      "titulo": "Recorrido Estándar Caseta Central (Módulo 3)",
+      "contenido": "Playa del Carmen, Quintana Roo.\nRECORRIDO DE VIGILANCIA — CASETA CENTRAL\n- Módulo 3: Accesos verificados, cerraduras intactas e iluminación operativa.\n- Área de control: Bitácora y equipo en orden.\nEstado general: SIN NOVEDAD."
+    },
+    {
+      "clave": "REC_CENOTE_BASE",
+      "casetaCodigo": "CENOTE",
+      "titulo": "Recorrido Estándar Caseta Cenote (Módulo 4)",
+      "contenido": "Playa del Carmen, Quintana Roo.\nRECORRIDO DE VIGILANCIA — CASETA CENOTE\n- Módulo 4: Perímetro verificado, señalización intacta y sin presencia ajena.\n- Senderos y alumbrado: Operando con normalidad.\nEstado general: SIN NOVEDAD."
+    }
+  ]
+}
