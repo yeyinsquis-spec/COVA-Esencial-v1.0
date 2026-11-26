@@ -18,9 +18,7 @@ object LocalReportFormatter {
         val limpio = texto
             .trim()
             .replace(Regex("[ \t]+"), " ")
-            .replace(Regex("\n{3,}"), "
-
-")
+            .replace(Regex("\n{3,}"), "\n\n")
         if (limpio.isEmpty()) return ""
         val conMayuscula = limpio.replaceFirstChar {
             if (it.isLowerCase()) it.titlecase() else it.toString()
