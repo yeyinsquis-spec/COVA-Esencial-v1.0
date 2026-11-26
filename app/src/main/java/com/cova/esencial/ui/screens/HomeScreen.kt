@@ -176,8 +176,7 @@ fun HomeScreen(
                     modifier = Modifier.weight(1f)
                 )
                 MenuGridCard(
-                    titulo = "ASISTENTES
-DE TURNO",
+                    titulo = "ASISTENTES\nDE TURNO",
                     descripcion = "Guías rápidas y listas de apoyo",
                     icono = Icons.Default.Checklist,
                     onClick = { onNavigate("asistentes") },
