@@ -44,10 +44,7 @@ fun RecorridosScreen(
     LaunchedEffect(caseta?.codigo, plantillasCaseta) {
         val plantillaDefault = plantillasCaseta.firstOrNull()?.contenido
             ?: caseta?.let {
-                "Playa del Carmen, Quintana Roo.
-RECORRIDO DE VIGILANCIA — ${it.nombre.uppercase()}
-- Módulos (${it.modulos}): Verificados sin novedad.
-Estado general: SIN NOVEDAD."
+                "Playa del Carmen, Quintana Roo.\nRECORRIDO DE VIGILANCIA — ${it.nombre.uppercase()}\n- Módulos (${it.modulos}): Verificados sin novedad.\nEstado general: SIN NOVEDAD."
             }.orEmpty()
         textoRecorrido = plantillaDefault
     }
