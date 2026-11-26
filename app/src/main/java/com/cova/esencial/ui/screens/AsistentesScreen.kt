@@ -41,9 +41,7 @@ fun AsistentesScreen(
     val marcados = remember { mutableStateMapOf<Int, Boolean>() }
 
     val mensajeRelevoRapido = remember(caseta) {
-        "Playa del Carmen, Quintana Roo.
-AVISO OPERATIVO — ${caseta?.nombre ?: "Caseta"}
-Módulos (${caseta?.modulos ?: "-"}) verificados y operando sin novedad."
+        "Playa del Carmen, Quintana Roo.\nAVISO OPERATIVO — ${caseta?.nombre ?: \"Caseta\"}\nMódulos (${caseta?.modulos ?: \"-\"}) verificados y operando sin novedad."
     }
 
     Scaffold(
